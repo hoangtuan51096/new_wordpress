@@ -5,10 +5,10 @@
  * Categories: featured
  */
 ?>
- <!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-background.jpg' ) ); ?>","id":3838,"dimRatio":50,"overlayColor":"contrast","align":"full"} -->
-
+<!-- wp:cover {"url":"<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-background.jpg' ) ); ?>","id":3838,"dimRatio":50,"overlayColor":"contrast","align":"full"} -->
 <div class="wp-block-cover alignfull">
-	<span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim-100 has-background-dim"></span>
+	<span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim"></span>
+	<img class="wp-block-cover__image-background wp-image-3838" alt="" src="<?php echo esc_url( get_theme_file_uri( 'assets/images/hero-background.jpg' ) ); ?>" data-object-fit="cover"/>
 	<div class="wp-block-cover__inner-container">
 		
 		<!-- wp:heading {"textAlign":"center"} -->
